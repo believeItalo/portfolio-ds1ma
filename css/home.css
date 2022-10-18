@@ -1,0 +1,35 @@
+.home::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/burst-kUqqaRjJuw0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   filter: grayscale(100%);
+   filter: brightness(20%);
+   z-index: -1;
+}
+.home{
+    display: flex;
+
+}
+.foto{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.profile{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 48px;
+    margin-left: 600px;
+}
+.texto-nome{
+ color: yellow;
+ font-size: 48px;
+
+}

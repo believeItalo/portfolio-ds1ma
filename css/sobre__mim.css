@@ -1,0 +1,26 @@
+.sobre__mim{
+    width: 100%;
+    max-width: 1200px;
+ display: grid;
+ grid-template-areas: 
+ "title title"
+ "descricao skills";
+ grid-template-rows: auto 1fr;
+ grid-template-columns: 1fr 1fr;
+ gap: 64px;
+
+}
+.section-titulo{
+    grid-area: title;
+    background-color: tomato;
+}
+.descricao{
+    background-color: green;
+    grid-area: descricao;
+}
+.skills{
+    background-color: plum;
+    grid-area: skills;
+
+
+}

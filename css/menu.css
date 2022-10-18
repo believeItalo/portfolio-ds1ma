@@ -1,0 +1,15 @@
+.menu{
+
+display: flex;
+flex-direction: row;
+gap: 40px;
+
+}
+.menu li{
+    border-bottom: 4px solid transparent;
+    transition: border-color .1s;
+
+}
+.menu li:hover{
+    border-color: #FEDC00;
+}

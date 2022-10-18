@@ -1,0 +1,32 @@
+
+
+header{
+color: white;
+grid-area: content;
+z-index: 666;
+max-width: 1200px;
+width: 100%;
+place-self: start;
+margin-top: 100px;
+margin-left: 350px;
+display: flex;
+justify-content: space-between;
+}
+main{
+    grid-area: content;
+    
+}
+section{
+    height: 100vh;
+    grid-area: content;
+
+}
+footer{
+    height: 100px;
+    width:100% ;
+    background-color: aqua;
+    grid-area: content;
+    align-self: flex-end;
+   
+    
+}

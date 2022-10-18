@@ -1,0 +1,16 @@
+body{
+    display: grid;
+    grid-template-areas: "content";
+    font-family:'Oswald', sans-serif;
+}
+body{
+    
+}
+:root{
+    --primary-color:#FEDC00;
+    --icon-color:#252525s;
+ }
+ html{
+     scroll-behavior: smooth;
+ }
+ 
