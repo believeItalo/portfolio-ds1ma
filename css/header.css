@@ -11,6 +11,7 @@ margin-top: 100px;
 margin-left: 350px;
 display: flex;
 justify-content: space-between;
+
 }
 main{
     grid-area: content;
@@ -22,11 +23,16 @@ section{
 
 }
 footer{
-    height: 100px;
-    width:100% ;
-    background-color: aqua;
-    grid-area: content;
-    align-self: flex-end;
-   
-    
+   grid: content;
+   place-self: end center;
+   height: 50px;
+   width: 100%;
+   display: grid;
+   place-content: center;
+   border-top: 12px solid #FFF;
+   font-size: .75rem;
+   background-color: black;
+}
+.footer-desc{
+    color: floralwhite;
 }
